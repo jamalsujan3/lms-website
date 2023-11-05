@@ -1,0 +1,426 @@
+/* fonts  
+font-family: 'Baloo 2', sans-serif;
+font-family: 'Playpen Sans', cursive;
+font-family: 'Righteous', sans-serif;
+
+*/
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Playpen+Sans:wght@300;400;500;600;700;800&family=Righteous&display=swap');
+
+/* common code start  */
+
+.container{
+	min-width: 320px;
+}
+
+/* common code end  */
+
+/* nav section start  */
+.navbar{
+	background: #131212;
+	z-index: 1000;
+}
+.navbar-brand{
+	color: #0FC2C0;
+	font-size: 2.2rem;
+	font-family: 'Righteous', sans-serif;
+}
+.navbar-brand:hover{
+	color: #0FC2C0;
+}
+
+.navbar-toggler {
+	background: #0FC2C0;
+
+}
+.navbar-toggler:focus {
+	box-shadow: none;
+
+}
+.navbar-toggler-icon {
+	color: #131212;
+	width: 1.3em;
+	height: 1.5em;
+}
+
+.offcanvas{
+	background: #131212;
+}
+.offcanvas-title{
+	color: #0FC2C0;
+	font-size: 2.2rem;
+	font-family: 'Righteous', sans-serif;
+}
+
+.dropdown-menu{
+	background: #060607;
+}
+.dropdown-menu .dropdown-item{
+	color: #ffffff;
+	background: none;
+	font-size: 1rem;
+	font-weight: 600 !important;
+	font-family: 'Baloo 2', sans-serif;
+	transition: .3s linear;
+}
+.dropdown-menu .dropdown-item:hover{
+	color: #0FC2C0;
+	transform: translate(5px, 0px);
+}
+
+
+
+.navbar .nav-link {
+	color: #fff;
+	font-size: 1rem;
+	font-weight: 600 !important;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: 'Baloo 2', sans-serif;
+}
+
+.navbar .nav-link:hover {
+	color: #0FC2C0;
+	
+}
+
+.navbar .login {
+	background: #fc0101;
+	border: 2px solid #fc0101;
+	font-family: 'Playpen Sans', cursive;
+	font-weight: 800 !important;
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+.navbar .login:hover {
+	color: #fff;
+	background: none;
+	border: 2px solid #fc0101;
+	
+}
+/* nav section end  */
+
+
+/* courses section start */
+.courses-section{
+	background: #000000;
+}
+.courses-title h2{
+	color:#f30808;
+	font-weight: 700 !important;
+	font-family: 'Baloo 2', sans-serif;
+
+}
+
+
+/* courses section end */
+
+/* Design Courses start */
+.design-courses-section{
+	background: #090b20;
+}
+.design-courses-title {
+	
+}
+.design-courses-title h3{
+	color: #ffffff;
+	font-size: 50px;
+	font-weight: 800 !important;
+	font-family: 'Baloo 2', sans-serif;
+
+}
+.design-courses-card{
+	position: relative;
+	background-color: #1a1e57;
+	border: 1px solid #090b20;
+
+}
+
+.design-courses-bg{
+	position: absolute;
+	content: '';
+	background: rgba(25, 27, 33, 0.6);
+	width: 100%;
+	height: 100%;
+	top: 0%;
+	left: 0%;
+	opacity: 0;
+	transition: .3s linear;
+}
+
+.design-courses-card:hover .design-courses-bg{
+	width: 100%;
+	height: 100%;
+	opacity: 1;
+	
+}
+
+.design-courses-card .design-courses-card-content h3{
+	position: absolute;
+	top: 0%;
+	left: 3%;
+	opacity: 0;
+	color: #ffffff;
+	font-size: 50px;
+	font-weight: 900 !important;
+	font-family: 'Baloo 2', sans-serif;
+	transition: .3s linear;
+	
+}
+.design-courses-card .design-courses-card-content .btn{
+	position: absolute;
+	top: 80%;
+	left: 30%;
+	opacity: 0;
+	color: #00f798;
+	font-size: 25px;
+	font-weight: 800 !important;
+	font-family: 'Playpen Sans', cursive;
+	transition: .3s linear;
+
+}
+
+.design-courses-card:hover .design-courses-card-content h3{
+	top: 5%;
+	left: 3%;
+	opacity: 1;
+}
+.design-courses-card:hover .design-courses-card-content .btn{
+	top: 65%;
+	left: 28%;
+	opacity: 1;
+}
+.design-courses-card .design-courses-card-content .btn:hover{
+	text-shadow: 0px 0px 10px #aaaee6;
+	transform: translate(8px, 0px);
+}
+/* design-courses Modal start */
+
+.modal-header {
+	background: #2453ac;
+}
+
+
+.modal-header .modal-title{
+	color: #f0e9e9;
+	font-size: 40px;
+	font-weight: 900 !important;
+	font-family: 'Baloo 2', sans-serif;
+}
+
+.course-duration {
+	background: #2e4483;
+}
+
+.course-duration h6{
+	color: #fdfdfd;
+	font-size: 21px;
+	font-weight: 700 !important;
+	font-family: 'Baloo 2', sans-serif;
+}
+.course-duration h4{
+	color: #f3f3f3;
+	font-size: 25px;
+	font-weight: 700 !important;
+	font-family: 'Baloo 2', sans-serif;
+}
+.course-description h5{
+	color: #070707;
+	font-size: 30px;
+	font-weight: 900 !important;
+	font-family: 'Baloo 2', sans-serif;
+}
+.course-description ul{
+	list-style-type: square;
+}
+
+.course-description li{
+	color: #070707;
+	font-size: 16px;
+	line-height: 2;
+	font-weight: 700 !important;
+	font-family: 'Playpen Sans', cursive;
+}
+
+.course-instractor h5{
+	color: #070707;
+	font-size: 30px;
+	font-weight: 900 !important;
+	font-family: 'Baloo 2', sans-serif;
+}
+
+.course-instractor-card{
+	background-color: #1a1e57;
+	border: 1px solid #090b20;
+
+}
+
+.course-instractor-card .course-instractor-card-content h4{
+	color: #ffffff;
+	font-size: 22px;
+	font-weight: 600 !important;
+	font-family: 'Baloo 2', sans-serif;
+}
+
+.courses-card .courses-card-content a{
+	color: #ffffff;
+	background: #ff0000;
+	border: 2px solid #ff0000;
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: 500 !important;
+	font-family: 'Playpen Sans', cursive;
+	padding: 2px 13px;
+	transition: .2s linear;
+}
+.courses-card .courses-card-content a:hover{
+	transform: translate(5px, 0px);
+}
+
+.modal-footer h5{
+	color: #f70000;
+	font-size: 35px;
+	font-weight: 800 !important;
+	font-family: 'Baloo 2', sans-serif;
+}
+
+.modal-footer button{
+	color: #ffffff;
+	background: #351bc9;
+	border: 2px solid #351bc9;
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: 500 !important;
+	font-family: 'Baloo 2', sans-serif;
+	padding: 8px 13px;
+	transition: .3s linear;
+}
+.modal-footer button:hover{
+	background: #351bc9;
+	box-shadow: 0px 0px 10px #2607a0;
+}
+
+/* design-courses Modal end */
+
+/* Design Courses end */
+
+/* footer section start */
+.footer-section{
+	background: #1c1d1d;
+}
+.brand-intro h2{
+	color: #0FC2C0;
+	font-size: 2.2rem;
+	font-family: 'Righteous', sans-serif;
+}
+.brand-intro h3{
+	color: #fff9f9;
+	font-size: 1.8rem;
+	font-weight: 600;
+	font-family: 'Baloo 2', sans-serif;
+}
+.footer-address{
+	
+}
+
+.footer-address h3{
+	color: #fa0f0f;
+	font-size: 1.6rem;
+	font-weight: 500;
+	font-family: 'Baloo 2', sans-serif;
+}
+.footer-address h6{
+	color: #ffffff;
+	font-size: 1rem;
+	font-weight: 500 !important;
+	font-family: 'Baloo 2', sans-serif;
+}
+
+.social-icon{
+
+}
+
+.social-icon a .fa-facebook-f{
+	color: #0d45e0;
+	background: #fff;
+	padding: 7px 10px;
+	border-radius: 50%;
+	transition: .3s linear;
+}
+.social-icon a .fa-facebook-f:hover{
+	color: #fff;
+	background: #0d45e0;
+}
+.social-icon a .fa-instagram{
+	color: #f8062e;
+	background: #fff;
+	padding: 7px 8px;
+	border-radius: 50%;
+	transition: .3s linear;
+}
+.social-icon a .fa-instagram:hover{
+	color: #fffdfd;
+	background: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
+	
+}
+.social-icon a .fa-x-twitter{
+	color: #000000;
+	background: #fff;
+	padding: 7px 8px;
+	border-radius: 50%;
+	transition: .3s linear;
+}
+.social-icon a .fa-x-twitter:hover{
+	color: #fff;
+	background: #000000;
+	padding: 7px 8px;
+	border-radius: 50%;
+}
+.social-icon a .fa-youtube{
+	color: #ff0000;
+	background: #fff;
+	padding: 7px 7px;
+	border-radius: 50%;
+	transition: .3s linear;
+}
+.social-icon a .fa-youtube:hover{
+	color: #fff;
+	background: #ff0000;
+}
+.popular-courses h4{
+	color: #ffffff;
+	font-size: 1.8rem;
+	font-weight: 600;
+	font-family: 'Baloo 2', sans-serif;
+	position: relative;
+}
+.popular-courses h4::after{
+	position: absolute;
+	content: '';
+	background: #bdc0c0;
+	width: 80%;
+	height: 3px;
+	bottom: -20%;
+	left: 0%;
+	border-radius: 5px;
+}
+.popular-courses .course-link{
+	color: #aef5f5;
+	text-decoration: none;
+	font-size: 1.1rem;
+	font-weight: 600;
+	font-family: 'Baloo 2', sans-serif;
+	
+}
+.popular-courses .course-link:hover{
+	color: #d8f5f5;
+	
+	
+}
+.popular-courses li{
+	transition: .2s linear;
+}
+.popular-courses li:hover{
+	transform: translate(5px, 0px);
+}
+/* footer section end */
+

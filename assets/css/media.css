@@ -1,0 +1,29 @@
+@media (min-width: 0px) and (max-width: 575px){
+    /* nav section start  */
+    .navbar .login {
+        display: inline;
+        margin-top: 20px;
+    }
+   
+    /* nav section end  */
+    
+    
+}
+@media (min-width: 576px) and (max-width: 766px){
+    
+   
+    
+        
+
+}
+@media (min-width: 767px) and (max-width: 991px){
+   
+    
+}
+
+@media screen and (min-width: 991px) {
+    .dropdown:hover .dropdown-menu{
+        display: block !important;
+            
+    }
+}

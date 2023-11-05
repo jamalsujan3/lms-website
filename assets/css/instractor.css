@@ -1,0 +1,287 @@
+/* fonts  
+font-family: 'Baloo 2', sans-serif;
+font-family: 'Playpen Sans', cursive;
+font-family: 'Righteous', sans-serif;
+
+*/
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Playpen+Sans:wght@300;400;500;600;700;800&family=Righteous&display=swap');
+
+/* common code start  */
+
+.container{
+	min-width: 320px;
+}
+
+/* common code end  */
+
+/* nav section start  */
+.navbar{
+	background: #131212;
+	z-index: 1000;
+}
+.navbar-brand{
+	color: #0FC2C0;
+	font-size: 2.2rem;
+	font-family: 'Righteous', sans-serif;
+}
+.navbar-brand:hover{
+	color: #0FC2C0;
+}
+
+.navbar-toggler {
+	background: #0FC2C0;
+
+}
+.navbar-toggler:focus {
+	box-shadow: none;
+
+}
+.navbar-toggler-icon {
+	color: #131212;
+	width: 1.3em;
+	height: 1.5em;
+}
+
+.offcanvas{
+	background: #131212;
+}
+.offcanvas-title{
+	color: #0FC2C0;
+	font-size: 2.2rem;
+	font-family: 'Righteous', sans-serif;
+}
+
+.dropdown-menu{
+	background: #060607;
+}
+.dropdown-menu .dropdown-item{
+	color: #ffffff;
+	background: none;
+	font-size: 1rem;
+	font-weight: 600 !important;
+	font-family: 'Baloo 2', sans-serif;
+	transition: .3s linear;
+}
+.dropdown-menu .dropdown-item:hover{
+	color: #0FC2C0;
+	transform: translate(5px, 0px);
+}
+
+
+
+.navbar .nav-link {
+	color: #fff;
+	font-size: 1rem;
+	font-weight: 600 !important;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: 'Baloo 2', sans-serif;
+}
+
+.navbar .nav-link:hover {
+	color: #0FC2C0;
+	
+}
+
+.navbar .login {
+	background: #fc0101;
+	border: 2px solid #fc0101;
+	font-family: 'Playpen Sans', cursive;
+	font-weight: 800 !important;
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+.navbar .login:hover {
+	color: #fff;
+	background: none;
+	border: 2px solid #fc0101;
+	
+}
+/* nav section end  */
+
+
+/* courses section start */
+.courses-section{
+	background: #000000;
+}
+.courses-title h2{
+	color:#f30808;
+	font-weight: 700 !important;
+	font-family: 'Baloo 2', sans-serif;
+
+}
+
+/* courses section end */
+
+
+
+
+/* courses section end */
+
+.courses-card{
+	background-color: #1a1e57;
+	border: 1px solid #090b20;
+	
+	
+}
+
+.courses-card .courses-card-content h3{
+	color: #00ffdd;
+	font-size: 28px;
+	font-weight: 600 !important;
+	font-family: 'Baloo 2', sans-serif;
+}
+.courses-card .courses-card-content h4{
+	color: #15fa00;
+	font-size: 23px;
+	font-weight: 600 !important;
+	font-family: 'Playpen Sans', cursive;
+}
+
+.courses-card .courses-card-link a{
+	color: #ffffff;
+	background: #ff0000;
+	border: 2px solid #ff0000;
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: 500 !important;
+	font-family: 'Playpen Sans', cursive;
+	padding: 5px 20px;
+	
+}
+.courses-card .courses-card-link{
+	transition: .2s linear;
+}
+.courses-card .courses-card-link:hover{
+	transform: translate(0px, 5px);
+}
+
+/* courses section end */
+
+
+
+
+
+
+
+/* footer section start */
+.footer-section{
+	background: #1c1d1d;
+}
+.brand-intro h2{
+	color: #0FC2C0;
+	font-size: 2.2rem;
+	font-family: 'Righteous', sans-serif;
+}
+.brand-intro h3{
+	color: #fff9f9;
+	font-size: 1.8rem;
+	font-weight: 600;
+	font-family: 'Baloo 2', sans-serif;
+}
+.footer-address{
+	
+}
+
+.footer-address h3{
+	color: #fa0f0f;
+	font-size: 1.6rem;
+	font-weight: 500;
+	font-family: 'Baloo 2', sans-serif;
+}
+.footer-address h6{
+	color: #ffffff;
+	font-size: 1rem;
+	font-weight: 500 !important;
+	font-family: 'Baloo 2', sans-serif;
+}
+
+.social-icon{
+
+}
+
+.social-icon a .fa-facebook-f{
+	color: #0d45e0;
+	background: #fff;
+	padding: 7px 10px;
+	border-radius: 50%;
+	transition: .3s linear;
+}
+.social-icon a .fa-facebook-f:hover{
+	color: #fff;
+	background: #0d45e0;
+}
+.social-icon a .fa-instagram{
+	color: #f8062e;
+	background: #fff;
+	padding: 7px 8px;
+	border-radius: 50%;
+	transition: .3s linear;
+}
+.social-icon a .fa-instagram:hover{
+	color: #fffdfd;
+	background: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
+	
+}
+.social-icon a .fa-x-twitter{
+	color: #000000;
+	background: #fff;
+	padding: 7px 8px;
+	border-radius: 50%;
+	transition: .3s linear;
+}
+.social-icon a .fa-x-twitter:hover{
+	color: #fff;
+	background: #000000;
+	padding: 7px 8px;
+	border-radius: 50%;
+}
+.social-icon a .fa-youtube{
+	color: #ff0000;
+	background: #fff;
+	padding: 7px 7px;
+	border-radius: 50%;
+	transition: .3s linear;
+}
+.social-icon a .fa-youtube:hover{
+	color: #fff;
+	background: #ff0000;
+}
+.popular-courses h4{
+	color: #ffffff;
+	font-size: 1.8rem;
+	font-weight: 600;
+	font-family: 'Baloo 2', sans-serif;
+	position: relative;
+}
+.popular-courses h4::after{
+	position: absolute;
+	content: '';
+	background: #bdc0c0;
+	width: 80%;
+	height: 3px;
+	bottom: -20%;
+	left: 0%;
+	border-radius: 5px;
+}
+.popular-courses .course-link{
+	color: #aef5f5;
+	text-decoration: none;
+	font-size: 1.1rem;
+	font-weight: 600;
+	font-family: 'Baloo 2', sans-serif;
+	
+}
+.popular-courses .course-link:hover{
+	color: #d8f5f5;
+	
+	
+}
+.popular-courses li{
+	transition: .2s linear;
+}
+.popular-courses li:hover{
+	transform: translate(5px, 0px);
+}
+/* footer section end */
+
